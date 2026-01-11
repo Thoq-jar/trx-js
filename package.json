@@ -1,0 +1,11 @@
+{
+  "name": "jlt",
+  "version": "1.0.0",
+  "description": "Rust and Java-like threading in JavaScript",
+  "main": "demo.js",
+  "scripts": {},
+  "keywords": ["jlt", "javascript", "thread", "mpsc"],
+  "author": "Thoq",
+  "license": "MIT",
+  "packageManager": "pnpm@10.28.0"
+}
