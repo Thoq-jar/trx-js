@@ -2,8 +2,14 @@
   "name": "@thoq/trx",
   "version": "0.1.0",
   "license": "MIT",
+  "description": "Java Like Threads for TypeScript with Rust-like message passing. An abstraction over TypeScript Workers that resembles Rust and Java threading.",
   "exports": "./index.ts",
   "tasks": {
     "demo": "deno run demo.ts"
+  },
+  "runtimes": {
+    "deno": "compatible",
+    "node": "compatible",
+    "browser": "compatible"
   }
 }
