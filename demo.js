@@ -1,4 +1,4 @@
-const { Thread } = require("./thread");
+const { Thread } = require("./index");
 
 async function main() {
     console.log(`Main thread ID: ${Thread.id()}`);
