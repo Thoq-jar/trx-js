@@ -1,6 +1,6 @@
 {
   "name": "jlt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rust and Java-like threading in JavaScript",
   "main": "demo.js",
   "scripts": {},
