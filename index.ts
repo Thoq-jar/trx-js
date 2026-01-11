@@ -19,7 +19,15 @@ const Thread = {
   id: getThreadId,
   spawn: (
     functionToRun: (transmit: { send: (data: unknown) => void }) => void,
-  ) => {
+  ): {
+    rx: {
+      onMessage: (callback: (message: unknown) => void) => void;
+      recv: () => Promise<unknown>;
+    };
+    join: (timeout: number) => Promise<number>;
+    interrupt: () => void;
+    id: () => number;
+  } => {
     const { port1: messagePort1, port2: messagePort2 } = new MessageChannel();
     const { port1: completionPort1, port2: completionPort2 } =
       new MessageChannel();
