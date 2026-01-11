@@ -1,0 +1,25 @@
+# name: Publish
+
+# on:
+#   release:
+#     types: [published]
+#   workflow_dispatch:
+
+# jobs:
+#   publish:
+#     runs-on: ubuntu-latest
+#     permissions:
+#       contents: read
+#       id-token: write
+#     steps:
+#       - uses: actions/checkout@v4
+
+#       - name: Setup Deno
+#         uses: denoland/setup-deno@v1
+#         with:
+#           deno-version: v2.x
+
+#       - name: Publish to deno.land
+#         run: deno publish
+#         env:
+#           DENO_DEPLOY_TOKEN: ${{ secrets.DENO_DEPLOY_TOKEN }}
