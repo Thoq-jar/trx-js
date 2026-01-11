@@ -1,8 +1,8 @@
 # TRX.js
 
-Java Like Threads for JavaScript with Rust-like message passing.
+Java Like Threads for TypeScript with Rust-like message passing.
 
-TRX is an abstraction over JavaScript Workers and tries to resebmle Rust and
+TRX is an abstraction over TypeScript Workers and tries to resebmle Rust and
 Java threading.
 
-See the [demo](demo.js) for usage.
+See the [demo](demo.ts) for usage.
