@@ -4,7 +4,23 @@
   "description": "Rust and Java-like threading in JavaScript",
   "main": "demo.js",
   "scripts": {},
-  "keywords": ["jlt", "javascript", "thread", "mpsc"],
+  "keywords": [
+    "jlt",
+    "javascript",
+    "thread",
+    "mpsc",
+    "threading",
+    "concurrency",
+    "performance",
+    "rust",
+    "java",
+    "threads",
+    "abstraction"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thoq-jar/jlt.git"
+  },
   "author": "Thoq",
   "license": "MIT",
   "packageManager": "pnpm@10.28.0"
